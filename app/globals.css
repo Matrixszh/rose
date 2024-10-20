@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.text-stroke {
+    -webkit-text-stroke: 2px white; /* Apply stroke */
+    color: transparent; /* Make the fill color transparent */
+  }
+  
+  ::-webkit-scrollbar {
+    display: none;
+  }
