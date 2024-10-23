@@ -26,7 +26,7 @@ const AboutSection = () => {
           viewport={{ once: true }}
           className="font-semibold text-center text-3xl lg:text-6xl w-full text-nowrap"
         >
-          Who We <span className="font-bold text-[#58F499]">Are</span>
+          About <span className="font-bold text-[#58F499]">Me</span>
         </motion.p>
 
         <motion.p
@@ -57,27 +57,17 @@ const AboutSection = () => {
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.7, ease: "easeInOut" }}
             viewport={{ once: true }}
-            className="flex flex-col justify-center text-white w-full lg:w-[48%] leading-relaxed"
-          >
-            <p className="text-left tracking-wide leading-loose">
-              <span className="text-[#58F499] font-semibold">
-                At Rose-RealEstate
-              </span>
-              , we are dedicated to helping you find your{" "}
-              <span className="text-[#58F499] font-semibold">dream home</span>{" "}
-              or the perfect investment property. With{" "}
-              <span className="text-[#58F499] font-semibold">
-                years of experience
-              </span>{" "}
-              in the real estate market, we specialize in providing{" "}
-              <span className="text-[#58F499] font-semibold">
-                personalized services
-              </span>{" "}
-              that cater to your unique needs. Whether you're looking to{" "}
-              <span className="font-bold">buy</span>,{" "}
-              <span className="font-bold">sell</span>, or{" "}
-              <span className="font-bold">invest</span>, our team of experts is
-              here to guide you through every step of the process.
+            className="flex flex-col justify-center text-lg text-white w-full lg:w-[48%] leading-relaxed"
+          ><p className="text-left tracking-wide leading-loose">
+              <span className="text-[#58F499] font-semibold">Rashida Shams</span> is a
+              <span className="text-[#58F499] font-semibold"> seasoned real estate expert </span>
+              with <span className="text-[#58F499] font-semibold"> 15+ years of experience </span>
+              in flipping homes, investment properties, and ground-up development. With a
+              <span className="text-[#58F499] font-semibold"> Master's Degree in Interior Design and Architecture</span>,
+              she offers a unique blend of design and real estate expertise. Ms Rose helps clients
+              <span className="text-[#58F499] font-semibold"> build and grow their investment portfolios</span>,
+              providing <span className="text-[#58F499] font-semibold"> strategic guidance </span>
+              to <span className="text-[#58F499] font-semibold"> maximize returns</span>.
             </p>
             <p className="mt-4 text-left tracking-wide leading-loose">
               We pride ourselves on our{" "}
