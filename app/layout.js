@@ -10,15 +10,12 @@ const poppins = Poppins({
 
 export const metadata = {
   title: "Rose Realestate",
-  description: "Helping you build and grow your real estate investment portfolios.",
-  // Metadata for sharing on social platforms
   openGraph: {
     title: "Rose Realestate",
-    description: "Helping you build and grow your real estate investment portfolios.",
     url: "https://www.realestatebyrose.com",
     images: [
       {
-        url: "/footerlogo.png", // Update this with the correct path to your logo
+        url: "https://www.realestatebyrose.com/images/footerlogo.png", // Updated path to logo in images folder
         width: 800,
         height: 600,
         alt: "Rose Realestate Logo",
@@ -29,12 +26,11 @@ export const metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Rose Realestate",
-    description: "Helping you build and grow your real estate investment portfolios.",
-    images: ["/footerlogo.png"], // Same logo for Twitter card
+    images: ["https://www.realestatebyrose.com/images/footerlogo.png"], // Updated path for Twitter
   },
   // Add favicon for better browser tab appearance
   icons: {
-    icon: "/favicon.ico", // Ensure you have a favicon at this path
+    icon: "/favicon.ico", // Ensure favicon is at this path
   },
   // Website URL
   url: "https://www.realestatebyrose.com",

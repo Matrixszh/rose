@@ -23,14 +23,13 @@ const Footer = () => {
 
           {/* Address and Social Icons */}
           <div className="flex flex-col items-end">
-            <div className="text-sm mb-2">Address</div>
             <div className="flex space-x-4 pb-2">
               {Object.entries(socialIcons).map(([name, path]) => (
-                <a 
-                  key={name} 
-                  href={socialLinks[name]} 
-                  target="_blank" 
-                  rel="noopener noreferrer" 
+                <a
+                  key={name}
+                  href={socialLinks[name]}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="hover:text-green-400 transition-colors duration-300"
                 >
                   <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">

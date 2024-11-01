@@ -46,7 +46,7 @@ const BookCall = () => {
       <div className="w-full">
         <InlineWidget
           styles={{ height: "126vh" }}
-          url="https://calendly.com/rshams4u"
+          url="https://calendly.com/rshams4u?hide_event_type_details=1&hide_gdpr_banner=1"
         />
       </div>
     </div>

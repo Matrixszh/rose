@@ -17,7 +17,7 @@ const AboutSection = () => {
           transition={{ duration: 0.7, ease: "easeInOut" }}
           viewport={{ once: true }}
         >
-          <Subtitle text={"ABOUT US"} />
+          <Subtitle text={"ABOUT ME"} />
         </motion.div>
         <motion.p
           initial={{ opacity: 0, x: 50 }}

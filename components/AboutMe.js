@@ -15,7 +15,7 @@ const AboutMe = () => {
           transition={{ duration: 0.7, ease: "easeInOut" }}
           viewport={{ once: true }}
         >
-          <Subtitle text={"KNOW ME"} />
+          <Subtitle text={"MY WORK"} />
         </motion.div>
         <motion.h2
           initial={{ opacity: 0, x: 50 }}
@@ -24,7 +24,7 @@ const AboutMe = () => {
           viewport={{ once: true }}
           className="font-semibold text-center text-3xl sm:text-4xl lg:text-6xl w-full"
         >
-          About <span className="font-bold text-[#58F499]">Me</span>
+          My <span className="font-bold text-[#58F499]">Realty Experience</span>
         </motion.h2>
 
         <motion.p
