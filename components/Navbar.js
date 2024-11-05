@@ -16,8 +16,8 @@ const Navbar = () => {
   const navItems = [
     { name: "Home", href: "#Hero" },
     { name: "Services", href: "#ExpertSection" },
-    { name: "About", href: "#CollaborationSectionOne" },
-    { name: "Contact", href: "#Contact" },
+    { name: "About", href: "#about" },
+    { name: "Contact", href: "#BookCall" },
   ];
 
   const scrollToSection = (e, href) => {
