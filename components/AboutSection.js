@@ -9,7 +9,7 @@ import img from "../public/images/about.png";
 
 const AboutSection = () => {
   return (
-    <section>
+    <section id="about">
       <div className="flex flex-col gap-5 justify-center items-center mt-[80px]">
         <motion.div
           initial={{ opacity: 0, x: 50 }}
